@@ -1,0 +1,10 @@
+plugin:
+  - '!@tapjs/typescript'
+
+node-arg:
+  - '--import=tsx'
+
+include:
+  - '**/@(test?(s)|__test?(s)__)/**/*.ts'
+  - '**/*.@(test?(s)|spec).ts'
+  - '**/test?(s).ts'
